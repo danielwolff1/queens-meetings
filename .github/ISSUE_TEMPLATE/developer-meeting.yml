@@ -83,6 +83,12 @@ body:
       description: Use this section during the meeting to track tasks. Mention responsible members.
 
   - type: textarea
+    id: dependency_update
+    attributes:
+      label: Dependency Update
+      description: Use this section during the meeting to track who is responsible for updating the dependencies this month. Mention responsible members.
+
+  - type: textarea
     id: minutes
     attributes:
       label: Meeting Minutes
